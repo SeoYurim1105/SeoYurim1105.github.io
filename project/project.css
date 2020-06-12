@@ -14,8 +14,8 @@
 table{text-align:center;}
 td{width:100px; height: 40px;}
 
-a:link{color:white; text-decoration:none;}
-a:visited{color:red;}
+a:link{color:red; text-decoration:none;}
+a:visited{color:yellow;}
 
 /* for mobile*/
 [class*="col-"]{width:100%;}
