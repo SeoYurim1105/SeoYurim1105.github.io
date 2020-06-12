@@ -6,6 +6,7 @@
 
 [class*="col-"] {float:left; padding:10px;} 
 .footer{border:2px solid pink; background-color:white; color:pink; padding:15px; text-align:center;}
+.footer{width: 25%;}
 
 .menu li {background-color:pink; color:purple; padding:20px; margin-bottom:5px; box-shadow:0 1px 3px gray; text-align:center;}
 .menu li:hover{color:none; background-color:transparent; text-decoration:none; }
