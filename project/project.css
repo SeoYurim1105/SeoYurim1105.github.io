@@ -8,14 +8,14 @@
 .footer{border:2px solid pink; background-color:white; color:pink; padding:15px; text-align:center;}
 
 .menu li {background-color:pink; color:white; padding:20px; margin-bottom:5px; box-shadow:0 1px 3px gray; text-align:center;}
-.menu li:hover{color:none; background-color:purple; text-decoration:none; }
+.menu li:hover{color:none; background-color:yellow; text-decoration:none; }
 .banner li{border:2px solid black; padding:10px; margin-bottom:10px; box-shadow: 0 1px 3px gray;}
  
 table{text-align:center;}
 td{width:100px; height: 40px;}
 
 a:link{color:red; text-decoration:none;}
-a:visited{color:orange;}
+a:visited{color:purple;}
 
 /* for mobile*/
 [class*="col-"]{width:100%;}
