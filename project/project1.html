@@ -1,46 +1,32 @@
 <!doctype  html>  <!--    project1.html  -->        
 <html><head><meta charset="utf-8"/><meta name="viewport"content="width=device-width,initial-scale=1"/>
-<link rel="stylesheet" href="/portfolio/hi.css"/>
-<script type="text/javascript">
-function doDisplay(noDiv){
-    var con = document.getElementById(noDiv);
-    if(con.style.display=='none'){
-        con.style.display = 'block';
-    }else{
-        con.style.display = 'none';
-    }
-}
-</script>
-    <style>
-        nav img{width:300px; height:700px;}
-        section img{width:400px; height:230px;}
-        aside ul img{width:500px; height:700px;}
-        footer p img{width:50px; height:50px;}
-        </style>
+<link rel="stylesheet" href="/project/project.css"/>
 <title>프로젝트</title></head>
 <body> 
 <div class="row"></div>    
 <div id="main">
- <nav class="col-3 col-t-3 menu"> <!-- 메뉴 D:25% T:25% M:100% -->
+ <nav class="col-3 col-t 12 banner"> 
    <ul>
-    <img src="../images/banner.png">
+    <li><img src="../images/banner.png"></li>
     </ul>
     </nav>
-        <section class="col-6 colt-t-9 menu"> <!-- 메뉴 D:25% T:25% M:100% -->
-            <h3 align="center"><img src="../images/menu.png"></h3>
+ <section class="col-3 colt-t-3 menu">
+     <picture>
+        <img src="../images/menu.png" style="width:auto;">
+     </picture>
             <ul>
-                <p align="center"><a href="https://seoyurim1105.github.io/project/myinfo.html">내 정보</a></p>
-                <p align="center"><a href="https://seoyurim1105.github.io/project/subject.html">수강 과목</a></p>
-                <p align="center"><a href="https://seoyurim1105.github.io/project/contest.html">공모전</a></p>
-                <p align="center"><a href="https://seoyurim1105.github.io/project/certificate.html">자격증</a></p>
-                <p align="center"><a href="https://seoyurim1105.github.io/project/project.html">프로젝트</a></p>
-                </ul></section>
-            <aside class="col-3 col-t 12 banner"><!--aside D;25% t:100% M;100%-->
-                <ul><img src="../images/banner2.png"></ul></aside>
-    <div class="row"></div>
-    <footer class="footer">
+                <li><a href="https://seoyurim1105.github.io/project/myinfo.html">내 정보</a></li>
+                <li><a href="https://seoyurim1105.github.io/project/subject.html">수강 과목</a></li>
+                <li><a href="https://seoyurim1105.github.io/project/contest.html">공모전</a></li>
+                <li><a href="https://seoyurim1105.github.io/project/certificate.html">자격증</a></li>
+                <li><a href="https://seoyurim1105.github.io/project/project.html">프로젝트</a></li>
+     </ul></section>
+  <aside class="col-3 col-t 12 banner">
+      <ul><li><img src="../images/banner2.png"></li></ul></aside>
+  <div class="row"></div>
+  <footer class="footer">
        <p><a href="https://www.instagram.com/yu_ri_ming_/?hl=ko"><img src="../images/insta.png"></a>
        <a href="https://www.facebook.com/profile.php?id=100006683832620"><img src="../images/facebook.png"></a>
        <a href="https://github.com/SeoYurim1105/SeoYurim1105.github.io"><img src="../images/github.jpg"></a>
-       <a href="https://www.dju.ac.kr/"><img src="../images/d.png"></a></p></footer>
+           <a href="https://www.dju.ac.kr/"><img src="../images/d.png"></a></p></footer>
 </body></html>
