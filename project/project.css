@@ -9,7 +9,6 @@
 
 .menu li {background-color:pink; color:purple; padding:20px; margin-bottom:5px; box-shadow:0 1px 3px gray; text-align:center;}
 .menu li:hover{color:none; background-color:transparent; text-decoration:none; }
-
 .banner li{border:2px solid black; padding:10px; margin-bottom:10px; box-shadow: 0 1px 3px gray;}
 
 table{text-align:center;}
