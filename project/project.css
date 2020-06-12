@@ -15,7 +15,7 @@ table{text-align:center;}
 td{width:100px; height: 40px;}
 
 a:link{color:red; text-decoration:none;}
-a:visited{color:yellow;}
+a:visited{color:orange;}
 
 /* for mobile*/
 [class*="col-"]{width:100%;}
